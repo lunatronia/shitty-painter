@@ -1,0 +1,538 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.lunatronia.shittypainter",
+    "pixelsRounding": true,
+    "projectUuid": "2c7f329d-b7b8-42b0-878f-ae9bf463b345",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "shitty painter",
+    "description": "",
+    "author": "lunatronia",
+    "windowWidth": 700,
+    "windowHeight": 500,
+    "latestCompilationDirectory": "C:\\Users\\muse\\Desktop\\export",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": false
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "uydVONxfNHgRwOo8aQSrQmoi6An1"
+    ],
+    "authorUsernames": [
+      "lunatronia"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Component 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 43.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle19.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invis.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "invis",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mixkit-classic-click-1117.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mixkit-classic-click-1117.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 51.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 52.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 53.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 55.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 54.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 58.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 59.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 60.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 62.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 61.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 63.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle63.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 67.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Component 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Component 18.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/popup"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rendertosprite"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/uploaddownloadimagefile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/recolorizer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/cursortype"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
